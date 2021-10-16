@@ -131,6 +131,7 @@ while running:
                     is_pause = False
                 
                 if event.type == pygame.QUIT:
+                    is_pause = False
                     running = False
                     
 
